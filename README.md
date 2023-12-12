@@ -57,7 +57,8 @@ Adding few screenshots of the TensorFlow dashboard
 <img src="https://github.com/mounika2000/Custom-gym-env/blob/main/tb2.png" width="50%" height="50%">
 <img src="https://github.com/mounika2000/Custom-gym-env/blob/main/tb3.png" width="50%" height="50%">
 
-The Pilot was able to gain a reward in the range of 85-95 when tried during various iterations:
+The Pilot was able to gain a reward in the range of 85-95 when tried during various iterations:  
+
 <img src="https://github.com/mounika2000/Custom-gym-env/blob/main/iteration-results.png" width="30%" height="30%">
 
 
