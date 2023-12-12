@@ -41,8 +41,15 @@ In the HyperPilot project, we employed the Proximal Policy Optimization (PPO) al
 Training Results  
 
 <img src="https://github.com/mounika2000/Custom-gym-env/blob/main/iteration-results.png" width="30%" height="30%">
+
+MatplotLib plot of Reward over episodes
+<img src="https://github.com/mounika2000/Custom-gym-env/blob/main/iteration-results.png" width="30%" height="30%">
+
+Adding few screenshots of the TensorFlow dashboard  
 <img src="https://github.com/mounika2000/Custom-gym-env/blob/main/tensorflow-board.png" width="75%" height="75%">
-<img src="https://github.com/mounika2000/Custom-gym-env/blob/main/tensorflow-board2.png" width="75%" height="75%">
+<img src="https://github.com/mounika2000/Custom-gym-env/blob/main/tb1.png" width="50%" height="50%">
+<img src="https://github.com/mounika2000/Custom-gym-env/blob/main/tb2.png" width="50%" height="50%">
+<img src="https://github.com/mounika2000/Custom-gym-env/blob/main/tb3.png" width="50%" height="50%">
 
 
 
