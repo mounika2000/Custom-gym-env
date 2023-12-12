@@ -10,7 +10,8 @@ Develop a custom gymnasium environment that represents a realistic problem of in
 ## Project Summary
 HyperPilot is a custom Gym environment where players control a helicopter to navigate through 2D space, avoiding birds and collecting fuel. The objective is to keep the helicopter fueled while avoiding bombs, with visuals rendered using OpenCV.
 
-HyperPilot stands out as a custom Gym environment that offers a unique and engaging challenge, blending strategy and quick reflexes. In this environment, players pilot a helicopter through a dynamic 2D space, confronting a constant flux of aerial obstacles like birds and bombs. The primary goal is to adeptly maneuver this helicopter, ensuring it remains fueled while deftly avoiding the looming threats.   
+HyperPilot stands out as a custom Gym environment that offers a unique and engaging challenge, blending strategy and quick reflexes. In this environment, players pilot a helicopter through a dynamic 2D space, confronting a constant flux of aerial obstacles like birds and bombs. The primary goal is to adeptly maneuver this helicopter, ensuring it remains fueled while deftly avoiding the looming threats.  
+
 The use of OpenCV for rendering adds a layer of realism to the visuals, enhancing the immersive experience. This environment is not just about survival but also about mastering the delicate art of navigation and resource management. The player's success hinges on their ability to strategically collect fuel and dodge dangers, making HyperPilot an intriguing test of both tactical thinking and agility.
 
 ## State Space
@@ -61,8 +62,11 @@ The paper "The Surprising Effectiveness of PPO in Cooperative, Multi-Agent Games
 
 ## Training Results  
 
-MatplotLib plot of Reward over episodes  
+###MatplotLib plot of Reward over episodes  
 <img src="https://github.com/mounika2000/Custom-gym-env/blob/main/plt.PNG" width="80%" height="80%">
+
+###Tensorboard Plot 
+<img src="https://github.com/mounika2000/Custom-gym-env/blob/main/tb-plt.PNG" width="80%" height="80%">
 
 Adding few screenshots of the TensorFlow dashboard  
 <img src="https://github.com/mounika2000/Custom-gym-env/blob/main/tensorflow-board.png" width="75%" height="75%">
