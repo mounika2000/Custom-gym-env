@@ -2,7 +2,8 @@
 Develop a custom gymnasium environment that represents a realistic problem of interest.
 
 ### A small GIF of how the game works
-![](https://github.com/mounika2000/Custom-gym-env/blob/main/final-rl.gif)
+
+<img src="https://github.com/mounika2000/Custom-gym-env/blob/main/final-rl.gif" width="75%" height="75%">
 
 # HyperPilot
 
@@ -37,6 +38,11 @@ In the HyperPilot project, we employed the Proximal Policy Optimization (PPO) al
 - Running out of fuel.
 
 ## Results
-- [Include training results, performance metrics, or observations.]
+Training Results  
+
+<img src="https://github.com/mounika2000/Custom-gym-env/blob/main/iteration-results.png" width="30%" height="30%">
+<img src="https://github.com/mounika2000/Custom-gym-env/blob/main/tensorflow-board.png" width="75%" height="75%">
+<img src="https://github.com/mounika2000/Custom-gym-env/blob/main/tensorflow-board2.png" width="75%" height="75%">
+
 
 
