@@ -62,11 +62,11 @@ The paper "The Surprising Effectiveness of PPO in Cooperative, Multi-Agent Games
 
 ## Training Results  
 
-###MatplotLib plot of Reward over episodes  
+### MatplotLib plot of Reward over episodes  
 <img src="https://github.com/mounika2000/Custom-gym-env/blob/main/plt.PNG" width="80%" height="80%">
 
-###Tensorboard Plot 
-<img src="https://github.com/mounika2000/Custom-gym-env/blob/main/tb-plt.PNG" width="80%" height="80%">
+### Tensorboard Plot   
+<img src="https://github.com/mounika2000/Custom-gym-env/blob/main/tb-plot.PNG" width="80%" height="80%">
 
 Adding few screenshots of the TensorFlow dashboard  
 <img src="https://github.com/mounika2000/Custom-gym-env/blob/main/tensorflow-board.png" width="75%" height="75%">
