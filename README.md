@@ -46,10 +46,7 @@ As discussed in the work of Smith et al. (2020), the implementation of XYZ algor
 - Collision with a bomb.
 - Running out of fuel.
 
-## Results
-Training Results  
-
-<img src="https://github.com/mounika2000/Custom-gym-env/blob/main/iteration-results.png" width="30%" height="30%">
+## Training Results  
 
 MatplotLib plot of Reward over episodes  
 <img src="https://github.com/mounika2000/Custom-gym-env/blob/main/plt.PNG" width="80%" height="80%">
@@ -59,6 +56,9 @@ Adding few screenshots of the TensorFlow dashboard
 <img src="https://github.com/mounika2000/Custom-gym-env/blob/main/tb1.png" width="50%" height="50%">
 <img src="https://github.com/mounika2000/Custom-gym-env/blob/main/tb2.png" width="50%" height="50%">
 <img src="https://github.com/mounika2000/Custom-gym-env/blob/main/tb3.png" width="50%" height="50%">
+
+The Pilot was able to gain a reward in the range of 85-95 when tried during various iterations:
+<img src="https://github.com/mounika2000/Custom-gym-env/blob/main/iteration-results.png" width="30%" height="30%">
 
 
 
