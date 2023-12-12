@@ -39,11 +39,12 @@ Proximal Policy Optimization (PPO) algorithms, particularly those implemented in
 
 ### Research Papers on PPO
 The paper "Proximal Policy Optimization Algorithms" by Schulman et al. presents a new family of policy gradient methods for reinforcement learning, which alternate between sampling data through interaction with the environment and optimizing a "surrogate" objective function. The key innovation in PPO is to make minor updates to the policy, ensuring that the new policy is not too far from the old, thereby leading to more stable and reliable training. This approach allows for effective and efficient training of deep neural networks for complex control tasks, demonstrating significant improvements over previous methods[1].    
+
 The paper "The Surprising Effectiveness of PPO in Cooperative, Multi-Agent Games" challenges the prevailing notion that Proximal Policy Optimization (PPO) is less effective than off-policy methods in multi-agent settings. Through extensive experimentation in various multi-agent environments, the authors demonstrate that PPO-based algorithms perform exceptionally well with minimal hyperparameter tuning and without specific modifications. Contrary to common beliefs, PPO shows competitive or superior results in terms of final returns and sample efficiency compared to off-policy counterparts. The study also provides practical insights into implementation and parameter tuning critical for PPO's success in cooperative multi-agent reinforcement learning[2].  
 
 
 ### References
-[1] J. Schulman, F. Wolski, P. Dhariwal, A. Radford, and O. Klimov, "Proximal Policy Optimization Algorithms," 2017. [arXiv:1707.06347](https://arxiv.org/abs/1707.06347)
+[1] J. Schulman, F. Wolski, P. Dhariwal, A. Radford, and O. Klimov, "Proximal Policy Optimization Algorithms," 2017. [arXiv:1707.06347](https://arxiv.org/abs/1707.06347)  
 [2] C. Yu, A. Velu, E. Vinitsky, J. Gao, Y. Wang, A. Bayen, Y. Wu, "The Surprising Effectiveness of PPO in Cooperative, Multi-Agent Games," 2021. [arXiv:2103.01955](https://arxiv.org/abs/2103.01955)
 
 
