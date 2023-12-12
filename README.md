@@ -10,6 +10,9 @@ Develop a custom gymnasium environment that represents a realistic problem of in
 ## Project Summary
 HyperPilot is a custom Gym environment where players control a helicopter to navigate through 2D space, avoiding birds and collecting fuel. The objective is to keep the helicopter fueled while avoiding bombs, with visuals rendered using OpenCV.
 
+HyperPilot stands out as a custom Gym environment that offers a unique and engaging challenge, blending strategy and quick reflexes. In this environment, players pilot a helicopter through a dynamic 2D space, confronting a constant flux of aerial obstacles like birds and bombs. The primary goal is to adeptly maneuver this helicopter, ensuring it remains fueled while deftly avoiding the looming threats.   
+The use of OpenCV for rendering adds a layer of realism to the visuals, enhancing the immersive experience. This environment is not just about survival but also about mastering the delicate art of navigation and resource management. The player's success hinges on their ability to strategically collect fuel and dodge dangers, making HyperPilot an intriguing test of both tactical thinking and agility.
+
 ## State Space
 - **Observation Shape:** (600, 800, 3) representing the RGB image of the environment.
 - This value has been played around during training to find which model works best
@@ -60,6 +63,12 @@ Adding few screenshots of the TensorFlow dashboard
 The Pilot was able to gain a reward in the range of 85-95 when tried during various iterations:  
 
 <img src="https://github.com/mounika2000/Custom-gym-env/blob/main/iteration-results.png" width="30%" height="30%">
+
+## Conclusion
+
+The custom environment game in this project shows promising signs of improvement in the agent's performance. Although the reward increase is modest, likely due to the limited scope of training with only 100 iterations, the results are encouraging. The constraint of resources prevented longer training sessions which could potentially yield better results. Nevertheless, the existing outcomes and screenshots suggest that the Ray RLlib agents have a significant potential for further improvement, indicating that with extended training, the agents could achieve higher rewards and more effectively navigate the custom environment.
+
+Working on this project was an immensely fun and interesting experience. The process of developing and fine-tuning the custom environment, along with observing the agent's learning progress over time, was both challenging and rewarding.
 
 
 
