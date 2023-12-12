@@ -34,11 +34,19 @@ The use of OpenCV for rendering adds a layer of realism to the visuals, enhancin
 
 In the HyperPilot project, we employed the Proximal Policy Optimization (PPO) algorithm for training the agent. This choice is evident from the usage of the `ray.rllib.algorithms.ppo` module. PPO is renowned for its efficiency and effectiveness in complex environments, particularly those with high-dimensional observation spaces, such as ChopperScape. Our implementation initializes the PPO algorithm with a custom convolutional neural network configuration, suitable for processing the image-based observations of the environment.
 
+Proximal Policy Optimization (PPO) algorithms, particularly those implemented in Ray RLlib, represent a policy gradient approach in reinforcement learning. As an on-policy method, PPO updates policies using data collected from the current policy, balancing performance and sample efficiency. It stands out for its simplicity and stability, avoiding the need for complex trust region optimization, making it well-suited for various environments. PPO is often preferred for its robustness and effectiveness, as detailed in the paper by Schulman et al., "Proximal Policy Optimization Algorithms" (2017). This work underpins many RL applications, demonstrating PPO's adaptability to different scenarios.
+
 ### Research Papers on PPO
-As discussed in the work of Smith et al. (2020), the implementation of XYZ algorithm shows significant improvements in performance [1].
+The paper "Proximal Policy Optimization Algorithms" by Schulman et al. presents a new family of policy gradient methods for reinforcement learning, which alternate between sampling data through interaction with the environment and optimizing a "surrogate" objective function. The key innovation in PPO is to make minor updates to the policy, ensuring that the new policy is not too far from the old, thereby leading to more stable and reliable training. This approach allows for effective and efficient training of deep neural networks for complex control tasks, demonstrating significant improvements over previous methods[1].  
+The paper "The Surprising Effectiveness of PPO in Cooperative, Multi-Agent Games" challenges the prevailing notion that Proximal Policy Optimization (PPO) is less effective than off-policy methods in multi-agent settings. Through extensive experimentation in various multi-agent environments, the authors demonstrate that PPO-based algorithms perform exceptionally well with minimal hyperparameter tuning and without specific modifications. Contrary to common beliefs, PPO shows competitive or superior results in terms of final returns and sample efficiency compared to off-policy counterparts. The study also provides practical insights into implementation and parameter tuning critical for PPO's success in cooperative multi-agent reinforcement learning [2].
+
 
 ### References
-[1] J. Smith, A. Johnson, and K. Lee, "Title of the Paper," in *Journal Name*, vol. X, no. Y, pp. Z-ZZ, 2020. [Link](URL_to_the_paper)
+[1] J. Schulman, F. Wolski, P. Dhariwal, A. Radford, and O. Klimov, "Proximal Policy Optimization Algorithms," 2017. [arXiv:1707.06347](https://arxiv.org/abs/1707.06347)
+[2] C. Yu, A. Velu, E. Vinitsky, J. Gao, Y. Wang, A. Bayen, Y. Wu, "The Surprising Effectiveness of PPO in Cooperative, Multi-Agent Games," 2021. [arXiv:2103.01955](https://arxiv.org/abs/2103.01955)
+
+
+
 
 
 
