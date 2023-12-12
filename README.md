@@ -12,6 +12,8 @@ HyperPilot is a custom Gym environment where players control a helicopter to nav
 
 ## State Space
 - **Observation Shape:** (600, 800, 3) representing the RGB image of the environment.
+- This value has been played around during training to find which model works best
+
 
 ## Action Space
 - **Actions:** Discrete space with six actions:
@@ -29,6 +31,13 @@ HyperPilot is a custom Gym environment where players control a helicopter to nav
 
 In the HyperPilot project, we employed the Proximal Policy Optimization (PPO) algorithm for training the agent. This choice is evident from the usage of the `ray.rllib.algorithms.ppo` module. PPO is renowned for its efficiency and effectiveness in complex environments, particularly those with high-dimensional observation spaces, such as ChopperScape. Our implementation initializes the PPO algorithm with a custom convolutional neural network configuration, suitable for processing the image-based observations of the environment.
 
+### Research Papers on PPO
+As discussed in the work of Smith et al. (2020), the implementation of XYZ algorithm shows significant improvements in performance [1].
+
+### References
+[1] J. Smith, A. Johnson, and K. Lee, "Title of the Paper," in *Journal Name*, vol. X, no. Y, pp. Z-ZZ, 2020. [Link](URL_to_the_paper)
+
+
 
 ## Starting State
 - The helicopter is initialized at a random position at the start of each episode.
@@ -42,8 +51,8 @@ Training Results
 
 <img src="https://github.com/mounika2000/Custom-gym-env/blob/main/iteration-results.png" width="30%" height="30%">
 
-MatplotLib plot of Reward over episodes
-<img src="https://github.com/mounika2000/Custom-gym-env/blob/main/iteration-results.png" width="30%" height="30%">
+MatplotLib plot of Reward over episodes  
+<img src="https://github.com/mounika2000/Custom-gym-env/blob/main/plt.PNG" width="80%" height="80%">
 
 Adding few screenshots of the TensorFlow dashboard  
 <img src="https://github.com/mounika2000/Custom-gym-env/blob/main/tensorflow-board.png" width="75%" height="75%">
